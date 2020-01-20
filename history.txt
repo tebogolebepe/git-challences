@@ -1,0 +1,222 @@
+    1  cd / opt/
+    2  cd /opt/
+    3  sudo tar -xvzf ~/Downloads/ideaIC-2019.3.1.tar.gz
+    4  ls -l
+    5  sudo mv idea-IC-193.5662.53 idea
+    6  /opt/idea/bin/idea.sh
+    7  ls
+    8  pwd
+    9  mkdir Workspace 
+   10  cd newWorkshop
+   11  cd Workshop
+   12  ls
+   13  cd workshop
+   14  cd workspace
+   15  cd Workspace
+   16  ls
+   17  touch readme.txt
+   18  cp readme.txt changelog.txt
+   19  ls
+   20  cd ~
+   21  touch exercize.txt
+   22  ls
+   23  mv ezercize.txt /tmp
+   24  mv exercize.txt /tmp
+   25  ls
+   26  rm exercize.txt
+   27  cd ~
+   28  touch umuzi.txt recruit.txt cohort.txt 
+   29  ls
+   30  cat > recruit.txt
+   31  ls -l
+   32  vi recruit.txt
+   33  vi cohort.txt
+   34  vi umuzi.txt
+   35  cat recruit.txt cohort.txt umuzi.txt
+   36  touch summary.txt
+   37  cat recruit.txt umuzi.txt cohort.txt > summary.txt
+   38  ls
+   39  vi summary
+   40  echo "The End" > summary.txt
+   41  touch umuzi.txt
+   42  ls
+   43  locate umuzi.txt
+   44  ls
+   45  touch /Documents/pad
+   46  touch /Documnets/pad.txt
+   47  ls -l
+   48  cd Documents
+   49  touch pad.txt
+   50  ls 
+   51  cd Desktop
+   52  cd ~
+   53  cd Destop
+   54  cd Desktop
+   55  mkdir work
+   56  ls
+   57  cd ..
+   58  cd Documents
+   59  cp pad.txt pad_copy.txt > ~/Desktop/work
+   60  cp pad.txt pad_copy.txt > ~/Desktop/work/
+   61  cp pad.txt pad_copy.txt > /Desktop/work
+   62  ls
+   63  cp pad.txt pad_copy.txt 
+   64  ls
+   65  mv pad_copy.txt -rf /work
+   66  mv pad_copy.txt -rf Desktop/work
+   67  mv pad_copy.txt -rf ~/Desktop/work
+   68  cd ..
+   69  cd Desktop
+   70  cp ~/Documents/pad.txt pad_copy.txt
+   71  ls
+   72  cd work
+   73  cp ~/Documents/pad.txt pad_copy.txt
+   74  ls
+   75  cd ~
+   76  locate updatedb
+   77  cd..
+   78  cd-
+   79  cd ~
+   80  locate pad_copy.txt
+   81  cd -
+   82  locate pad_copy.txt
+   83  ls -lr | grep '/\'|pfd$
+   84  find ./Downloads -name *.pdf
+   85  nano my_bio.md
+   86  mkdir my_files
+   87  mv my_files my_bio.md
+   88  mv my_bio.md my_files
+   89  ls
+   90  cd /Desktop
+   91  ls
+   92  cd Desktop
+   93  ls
+   94  sudo apt install git
+   95  git clone https://github.com/tebogolebepe/linux-challenges.git
+   96  ls
+   97  cd linux-challenges
+   98  ls
+   99  git init
+  100  ls
+  101  git add *
+  102  git status
+  103  git commit -m "commited"
+  104  git config --global user.email "tebogolebepe94@gmail.com"
+  105  git config --global user.name "tebogolebepe94"
+  106  git commit -m "commited"
+  107  git push -u origin master
+  108  ls
+  109  git add *
+  110  ld
+  111  git status
+  112  use "git branch --unset-upstream" to fixup
+  113  git branch --unset-upstream
+  114  git status
+  115  git commit -m "commited"
+  116  ls
+  117  git remote add origin https://github.com/tebogolebepe/linux-challenges.git
+  118  git push -u origin master
+  119  cd -
+  120  cd ~
+  121  mkdir git_basic_execise
+  122  ls
+  123  is -a
+  124  ls -a
+  125  cd -
+  126  mkdir git_basics_exircise
+  127  cd  git_basics_exircise
+  128  ls -a
+  129  cd desktop
+  130  clear
+  131  mkdir git_basic_exercise
+  132  cd  git_basic_exercise
+  133  ls -a
+  134  git init 
+  135  ls -a
+  136  git status
+  137  touch readme.md
+  138  ls -a
+  139  git status
+  140  sudo nano /etc/crontab
+  141  shutdown now
+  142  systemctl poweroff -i
+  143  dc desktop
+  144  cd desktop
+  145  cd -
+  146  mkdir git_basic_exercise
+  147  ls
+  148  cd ~
+  149  cd -
+  150  ls -a
+  151  git init
+  152  ls -a
+  153  git status
+  154  touch readme.md
+  155  git log
+  156  git add
+  157  git status
+  158  cd desktop
+  159  cd ~desktop
+  160  cd Desktop
+  161  mkdir git-basic-exercise 
+  162  cd git-basic-exercise
+  163  ls -a
+  164  git init
+  165  ls -a
+  166  git status
+  167  touch Readme.md
+  168  ls -a
+  169  git status
+  170  git log
+  171  git add Readme
+  172  git add Readme.md
+  173  git status
+  174  git reset Readme.md
+  175  git status
+  176  git commit -m
+  177  git commit -m "initial commit"
+  178  git log
+  179  q
+  180  git add Readme.md
+  181  git status
+  182  git commit -m "initial commit"
+  183  git log
+  184  q
+  185  git log q
+  186  nano readme.md
+  187  cat readme.md
+  188  git status
+  189  git commit
+  190  git add readme.md
+  191  ls -a
+  192  git commit -m "initial commit"
+  193  git log
+  194  git commit -m "third commit"
+  195  q
+  196  git checkout 1b66045e917aea29dc70e86df50d638c2497a039
+  197  cat readme.md
+  198  git status
+  199  ls
+  200  cat Readme.md
+  201  git checkout master
+  202  cat Readme.md
+  203  git checkout
+  204  git branch
+  205  git branch milkshake-flavours
+  206  git branch
+  207  cd milshake-flavours
+  208  cd milkshake-flavours
+  209  git checkout milkshake-flavours
+  210  ls 
+  211  git branch
+  212  nano milshakes.md
+  213  git status
+  214  git commit -m "added initial flsvours"
+  215  git add milkshakes.md
+  216  git add milshakes.md
+  217  git commit -m "addad initial flavours"
+  218  git branch
+  219  git checkout master
+  220  git branch history
+  221  git log
+  222  history > history.txt
